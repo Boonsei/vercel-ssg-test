@@ -5,7 +5,7 @@ const counter = ref(0);
 </script>
 
 <template>
-    <div class="push">
+    <div class="unpush">
         <button @click="counter++">Increment</button>
         <p>{{ counter }}</p>
     </div>
